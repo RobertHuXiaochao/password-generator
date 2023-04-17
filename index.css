@@ -9,8 +9,8 @@ body {
 }
 
 .container {
- width: 500px;
- height: 500px;
+ width: 550px;
+ height: 550px;
  background: #1F2937;
  border-radius: 6px;
  display: flex;
@@ -58,6 +58,13 @@ button {
 
 hr {
  border: 1px solid #2F3E53;
+ margin: 15px 0;
+}
+
+#click-to-copy {
+ margin-bottom: 10px;
+ font-size: 16px;
+ font-family: 'Karla', sans-serif;
 }
 
 .password-container {
@@ -67,13 +74,17 @@ hr {
 }
 
 .generated-password {
+ box-sizing: border-box;
+ height: 40px;
+ width: 175px;
  background: #273549;
  border-radius: 6px;
  font-weight: 500;
- font-size: 16px;
- line-height: 32px;
+ font-size: 14px;
+ line-height: 22px;
  text-align: center;
  color: #55F991;
  padding: 9px 15px;
- margin-top: 15px;
+ margin: 10px 0;
+ cursor: pointer;
 }
